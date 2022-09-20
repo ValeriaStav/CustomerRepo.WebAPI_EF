@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EntityFramework" Version="6.4.4" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+		<Reference Include="System.Activities" />
+		<Reference Include="System.ComponentModel.DataAnnotations" />
+		<Reference Include="System.Data.SqlXml" />
+		<Reference Include="System.Web" />
+	</ItemGroup>
+
+</Project>
